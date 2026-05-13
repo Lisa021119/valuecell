@@ -1,6 +1,6 @@
-# InsightDesk (ENMGT 5400)
+# ValueCell (ENMGT 5400 Course Demo)
 
-**InsightDesk** is a course prototype: a local web desk for market data, multi-agent research, and strategy workflows. It is intended for the **Cornell ENMGT 5400** presentation and demo, running entirely on your machine by default (no third-party product branding in the default build).
+**ValueCell** is a local course demo for market data, multi-agent research, and strategy workflows. This version is prepared for the **Cornell ENMGT 5400** presentation and runs on your own machine by default.
 
 ## Run
 
@@ -10,8 +10,10 @@
 bash start.sh
 ```
 
-- **Web UI:** [http://localhost:1420](http://localhost:1420)  
-- **API:** [http://localhost:8000](http://localhost:8000)  
+- **Local Web UI:** [http://localhost:1420](http://localhost:1420)  
+- **Local API:** [http://localhost:8000](http://localhost:8000)  
+
+> These links work only after the app is running locally with `bash start.sh`.
 
 **Windows (PowerShell):** `.\start.ps1`
 
@@ -29,7 +31,7 @@ Model providers, keys, and data sources: [docs/CONFIGURATION_GUIDE.md](docs/CONF
 
 - This tree includes code under the **Apache License 2.0**; see [LICENSE](LICENSE).  
 - Third-party services (LLM APIs, exchanges, embedded charts) remain subject to their own terms.  
-- The Python package directory is still named `valuecell` for import compatibility; the product name shown in the UI and API is **InsightDesk**.
+- The Python package directory is named `valuecell` and is kept that way for import compatibility.
 
 ## 中文说明
 
