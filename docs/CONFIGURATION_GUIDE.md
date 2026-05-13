@@ -56,7 +56,7 @@ cp .env.example .env
 
 ```bash
 # Examples (use only providers you trust and pay for)
-OPENROUTER_API_KEY=sk-or-v1-...
+OPENROUTER_API_KEY=<YOUR_OPENROUTER_API_KEY>
 SILICONFLOW_API_KEY=...
 GOOGLE_API_KEY=...
 OPENAI_API_KEY=...
@@ -433,13 +433,13 @@ APP_ENVIRONMENT=production
 
 ```bash
 # OpenRouter
-OPENROUTER_API_KEY=sk-or-v1-xxxxxxxxxxxxx
+OPENROUTER_API_KEY=<YOUR_OPENROUTER_API_KEY>
 
 # SiliconFlow
-SILICONFLOW_API_KEY=sk-xxxxxxxxxxxxx
+SILICONFLOW_API_KEY=<YOUR_SILICONFLOW_API_KEY>
 
 # Google
-GOOGLE_API_KEY=AIzaSyDxxxxxxxxxxxxx
+GOOGLE_API_KEY=<YOUR_GOOGLE_API_KEY>
 
 # Azure OpenAI (if using Azure provider)
 AZURE_OPENAI_API_KEY=xxxxxxxxxxxxx
@@ -447,7 +447,7 @@ AZURE_OPENAI_ENDPOINT=https://xxxxx.openai.azure.com/
 OPENAI_API_VERSION=2024-10-21
 
 # DashScope (Alibaba Cloud Qwen3 models)
-DASHSCOPE_API_KEY=sk-xxxxxxxxxxxxx
+DASHSCOPE_API_KEY=<YOUR_DASHSCOPE_API_KEY>
 ```
 
 ### Model Configuration
@@ -490,10 +490,10 @@ AGENT_DEBUG_MODE=true
 
 ```bash
 # .env file
-OPENROUTER_API_KEY=sk-or-v1-xxxxx        # Primary: access to many models
-SILICONFLOW_API_KEY=sk-xxxxx             # Fallback: cost-effective
-GOOGLE_API_KEY=AIzaSyD-xxxxx             # Second fallback: specialized
-DASHSCOPE_API_KEY=sk-xxxxx               # DashScope: Qwen3 models (Chinese optimized)
+OPENROUTER_API_KEY=<YOUR_OPENROUTER_API_KEY>      # Primary: access to many models
+SILICONFLOW_API_KEY=<YOUR_SILICONFLOW_API_KEY>    # Fallback: cost-effective
+GOOGLE_API_KEY=<YOUR_GOOGLE_API_KEY>              # Second fallback: specialized
+DASHSCOPE_API_KEY=<YOUR_DASHSCOPE_API_KEY>        # DashScope: Qwen3 models (Chinese optimized)
 
 # config.yaml
 models:
@@ -537,8 +537,8 @@ models:
 ## Troubleshooting
 ```bash
 # .env.production  
-OPENROUTER_API_KEY=sk-or-v1-prod-xxxxx
-SILICONFLOW_API_KEY=sk-prod-xxxxx
+OPENROUTER_API_KEY=<YOUR_PRODUCTION_OPENROUTER_API_KEY>
+SILICONFLOW_API_KEY=<YOUR_PRODUCTION_SILICONFLOW_API_KEY>
 APP_ENVIRONMENT=production
 ```
 
